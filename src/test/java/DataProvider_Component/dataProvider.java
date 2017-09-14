@@ -31,7 +31,7 @@ public class dataProvider {
 	public static Iterator<Object []> get_commons_method_data(String sheetName,String scriptName) throws IOException
 	{
 		
-		ExcelReadWrite xl = new ExcelReadWrite("./ExcelSheet/Amazon_Framework1.1.xlsx");
+		ExcelReadWrite xl = new ExcelReadWrite("./ExcelSheet/Amazon_Framework1.1.xls");
 		HSSFSheet sheet = xl.Setsheet(sheetName);
 		
 		int Rowcount = xl.getrowcount(sheet);

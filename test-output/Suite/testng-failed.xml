@@ -11,8 +11,12 @@
     <classes>
       <class name="Scenario_Driver_Component.Search_an_item">
         <methods>
-          <include name="Invalid_Search_Item"/>
-          <include name="Valid_Search_Item"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Invalid_Search_Item" invocation-numbers="0"/>
+          <include name="init_extentSetup"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
         </methods>
       </class> <!-- Scenario_Driver_Component.Search_an_item -->
     </classes>
@@ -22,8 +26,12 @@
     <classes>
       <class name="Scenario_Driver_Component.Search_an_item">
         <methods>
-          <include name="Invalid_Search_Item"/>
-          <include name="Valid_Search_Item"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Invalid_Search_Item" invocation-numbers="0"/>
+          <include name="init_extentSetup"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
         </methods>
       </class> <!-- Scenario_Driver_Component.Search_an_item -->
     </classes>
