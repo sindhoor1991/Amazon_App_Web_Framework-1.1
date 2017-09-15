@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestGC"
-           tests="1"
+<testsuite name="Set1"
+           tests="5"
            failures="0"
            errors="0"
            skipped="0"
-           time="7.156">
+           time="16.043">
   <properties />
   
   
-            <testcase name="Invalid_Search_Item" time="7.156" classname="Scenario_Driver_Component.Search_an_item" />
+            <testcase name="Valid_Search_Item" time="2.958" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Invalid_Search_Item" time="8.404" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Invalid_Search_Item" time="1.409" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Valid_Search_Item" time="1.587" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Valid_Search_Item" time="1.685" classname="Scenario_Driver_Component.Search_an_item" />
       
 </testsuite>

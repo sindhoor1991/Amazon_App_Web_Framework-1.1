@@ -1,0 +1,48 @@
+2017-09-14 20:10:56 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:10:56 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:11:03 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-14 20:11:03 INFO  Search_an_item:37 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-14 20:11:04 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-14 20:11:05 INFO  Search_an_item:43 - Failed as Actual Result Your search "######@@@@@@@@@@" did not match any products. with Search Item @@@@@
+2017-09-14 20:11:06 INFO  Search_an_item:43 - Failed as Actual Result Your search "######@@@@@@@@@@" did not match any products. with Search Item @@@@@
+2017-09-14 20:11:06 INFO  Search_an_item:58 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 20:11:06 INFO  Search_an_item:58 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 20:11:10 INFO  Search_an_item:73 - Failed as Actual Result We found 0 results for "######@@@@@@@@@@Reebok ShoesReebok Shoes" with Search Item Reebok Shoes
+2017-09-14 20:11:10 INFO  Search_an_item:73 - Failed as Actual Result We found 0 results for "######@@@@@@@@@@Reebok ShoesReebok Shoes" with Search Item Reebok Shoes
+2017-09-14 20:11:11 INFO  Search_an_item:58 - Executing the test case GB_03 With Order 1.0 For search Item JBL Speakers
+2017-09-14 20:11:11 INFO  Search_an_item:58 - Executing the test case GB_03 With Order 1.0 For search Item JBL Speakers
+2017-09-14 20:14:17 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:14:18 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:14:24 INFO  Search_an_item:58 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 20:14:25 INFO  Search_an_item:43 - Failed as Actual Result Your search "############" did not match any products. with Search Item ######
+2017-09-14 20:14:25 INFO  Search_an_item:58 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 20:14:28 INFO  Search_an_item:73 - Failed as Actual Result We found 0 results for "############Reebok ShoesReebok Shoes" with Search Item Reebok Shoes
+2017-09-14 20:14:28 INFO  Search_an_item:73 - Failed as Actual Result We found 0 results for "############Reebok ShoesReebok Shoes" with Search Item Reebok Shoes
+2017-09-14 20:15:21 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:15:22 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:15:29 INFO  Search_an_item:43 - Failed as Actual Result Your search "############" did not match any products. with Search Item ######
+2017-09-14 20:15:30 INFO  Search_an_item:43 - Failed as Actual Result Your search "############" did not match any products. with Search Item ######
+2017-09-14 20:17:44 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:17:45 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:18:40 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:19:08 INFO  Search_an_item:37 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-14 20:22:55 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:23:01 INFO  Search_an_item:37 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-14 20:23:53 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:24:03 INFO  Search_an_item:37 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-14 20:25:02 INFO  Search_an_item:28 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 20:25:09 INFO  Search_an_item:37 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-14 22:01:44 INFO  Search_an_item:58 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 22:05:47 INFO  Search_an_item:57 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 22:07:24 INFO  Search_an_item:57 - Executing the test case GB_03 With Order 1.0 For search Item JBL Speakers
+2017-09-14 22:09:51 INFO  Search_an_item:57 - Executing the test case GB_03 With Order 1.0 For search Item JBL Speakers
+2017-09-14 22:12:15 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-14 22:12:23 INFO  Search_an_item:36 - Passed as Actual Result Your search "@@@@@" did not match any products. with Search Item @@@@@
+2017-09-14 22:14:41 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-14 22:14:49 INFO  Search_an_item:36 - Passed as Actual Result Your search "@@@@@" did not match any products. with Search Item @@@@@
+2017-09-14 22:14:49 INFO  Search_an_item:57 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-14 22:16:54 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-14 22:17:02 INFO  Search_an_item:36 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-14 22:17:02 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-14 22:17:04 INFO  Search_an_item:36 - Passed as Actual Result Your search "@@@@@" did not match any products. with Search Item @@@@@
+2017-09-14 22:17:04 INFO  Search_an_item:57 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes

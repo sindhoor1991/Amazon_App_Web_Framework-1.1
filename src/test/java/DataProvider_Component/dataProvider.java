@@ -21,6 +21,13 @@ public class dataProvider {
 		
 	}
 	
+	@DataProvider(name="dp_ValidSearchItem")
+	public static Iterator<Object []> getvalid_searchDataItem() throws IOException
+	{
+		return get_commons_method_data("Search_Item", "Valid");
+		
+	}
+	
 	@DataProvider(name="dp_InvalidSearch")
 	public static Iterator<Object []> getInvalid_searchData() throws IOException
 	{
@@ -39,7 +46,7 @@ public class dataProvider {
 		
 		List<Object[]> li = new ArrayList<Object[]>();
 		
-		for(int i=1;i<Rowcount;i++)
+		for(int i=1;i<=Rowcount;i++)
 		{
 			String execute_flag = xl.Readvalue(sheet, i, "Execute_Flag");
 			String script_name = xl.Readvalue(sheet, i, "Script_Name");

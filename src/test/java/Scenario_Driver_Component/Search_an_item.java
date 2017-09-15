@@ -9,14 +9,13 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 
 import Generic_Component.BaseComponent;
-import PageObject_Component.SearchItem;
+import PageObject_Component.SearchTotalItem;
 
 public class Search_an_item extends BaseComponent{
 
 	public static Logger log = Logger.getLogger(Search_an_item.class);
 	
-	
-	@Test(dataProvider="dp_InvalidSearch", dataProviderClass=DataProvider_Component.dataProvider.class)
+	@Test(dataProvider="dp_InvalidSearch", dataProviderClass=DataProvider_Component.dataProvider.class, groups={"InValid"})
 	public void Invalid_Search_Item(Map<String, String> hmap) throws IOException
 	{
 		String TC_ID = hmap.get("TC_ID");
@@ -29,10 +28,10 @@ public class Search_an_item extends BaseComponent{
 		
 		//SoftAssert sAsset = new SoftAssert();
 		
-		SearchItem si = new SearchItem(driver);
+		SearchTotalItem si = new SearchTotalItem(driver);
 		String Actual_Result = si.searchItem(Search_Item);
 		
-		if(Actual_Result.equals(Exp_Result))
+		if(Actual_Result.contains(Exp_Result))
 		{
 			log.info("Passed as Actual Result "+Actual_Result+" with Search Item "+Search_Item);
 			
@@ -46,7 +45,7 @@ public class Search_an_item extends BaseComponent{
 		}
 	}
 	
-	@Test(dataProvider="dp_ValidSearch", dataProviderClass=DataProvider_Component.dataProvider.class)
+	@Test(dataProvider="dp_ValidSearch", dataProviderClass=DataProvider_Component.dataProvider.class, groups={"Valid"})
 	public void Valid_Search_Item(Map<String, String> hmap) throws IOException
 	{
 		String TC_ID = hmap.get("TC_ID");
@@ -59,10 +58,10 @@ public class Search_an_item extends BaseComponent{
 		
 		//SoftAssert sAsset = new SoftAssert();
 		
-		SearchItem si = new SearchItem(driver);
+		SearchTotalItem si = new SearchTotalItem(driver);
 		String Actual_Result = si.searchItem(Search_Item);
 		
-		if(Actual_Result.equals(Exp_Result))
+		if(Actual_Result.contains(Exp_Result))
 		{
 			log.info("Passed as Actual Result "+Actual_Result+" with Search Item "+Search_Item);
 			

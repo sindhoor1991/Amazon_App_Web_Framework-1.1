@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Scenario_Driver_Component.Search_an_item">
+      <class name="Scenario_Driver_Component.searchParticularItem">
         <methods>
-          <include name="Invalid_Search_Item"/>
-          <include name="Valid_Search_Item"/>
+          <include name="launchBrowser"/>
+          <include name="searchAParticularItem" invocation-numbers="0"/>
+          <include name="init_extentSetup"/>
+          <include name="CloseBrowser"/>
         </methods>
-      </class> <!-- Scenario_Driver_Component.Search_an_item -->
+      </class> <!-- Scenario_Driver_Component.searchParticularItem -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

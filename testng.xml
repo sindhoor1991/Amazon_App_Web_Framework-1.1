@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners> 
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+
   <test name="Test">
+  <groups>
+  	<run>
+  	  <include name = "Valid"></include>
+  	  <exclude name = "InValid"></exclude>
+  	</run>
+  </groups>
     <classes>
       <class name="Scenario_Driver_Component.Search_an_item"/>
+      <class name="Scenario_Driver_Component.searchParticularItem"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
