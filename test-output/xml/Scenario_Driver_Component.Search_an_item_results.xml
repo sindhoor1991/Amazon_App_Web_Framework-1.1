@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="16.043">
+           time="35.980">
   <properties />
   
   
-            <testcase name="Valid_Search_Item" time="2.958" classname="Scenario_Driver_Component.Search_an_item" />
-                <testcase name="Invalid_Search_Item" time="8.404" classname="Scenario_Driver_Component.Search_an_item" />
-                <testcase name="Invalid_Search_Item" time="1.409" classname="Scenario_Driver_Component.Search_an_item" />
-                <testcase name="Valid_Search_Item" time="1.587" classname="Scenario_Driver_Component.Search_an_item" />
-                <testcase name="Valid_Search_Item" time="1.685" classname="Scenario_Driver_Component.Search_an_item" />
+            <testcase name="Invalid_Search_Item" time="27.599" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Valid_Search_Item" time="2.418" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Valid_Search_Item" time="2.564" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Valid_Search_Item" time="1.781" classname="Scenario_Driver_Component.Search_an_item" />
+                <testcase name="Invalid_Search_Item" time="1.618" classname="Scenario_Driver_Component.Search_an_item" />
       
 </testsuite>

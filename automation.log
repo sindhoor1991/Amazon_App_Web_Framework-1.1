@@ -285,3 +285,39 @@
 2017-09-15 15:15:38 INFO  searchParticularItem:27 - Executing the test case GB_01 With Order 2.0 For search Item laptops
 2017-09-15 15:15:52 INFO  searchParticularItem:38 - Passed as Actual Result 1-24 of 2,928 results for Computers & Accessories : Laptops :
 "laptops"  with Search Item laptops
+2017-09-15 18:51:49 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-15 18:51:55 INFO  Search_an_item:36 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-15 18:51:56 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-15 18:51:58 INFO  Search_an_item:36 - Passed as Actual Result Your search "@@@@@" did not match any products. with Search Item @@@@@
+2017-09-15 18:51:58 INFO  Search_an_item:57 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-15 18:51:59 INFO  Search_an_item:66 - Passed as Actual Result results for Shoes & Handbags : Shoes : Men's Shoes : Sport Shoes :
+"Reebok Shoes"  with Search Item Reebok Shoes
+2017-09-15 18:52:00 INFO  Search_an_item:57 - Executing the test case GB_03 With Order 1.0 For search Item JBL Speakers
+2017-09-15 18:52:02 INFO  Search_an_item:66 - Passed as Actual Result results for Electronics : Home Audio : Speakers :
+"JBL Speakers"  with Search Item JBL Speakers
+2017-09-15 18:52:03 INFO  Search_an_item:57 - Executing the test case GB_04 With Order 1.0 For search Item Water Bottels
+2017-09-15 18:52:03 INFO  Search_an_item:72 - Failed as Actual Result results for Electronics : Home Audio : Speakers :
+"JBL Speakers"  with Search Item Water Bottels
+2017-09-15 18:52:03 INFO  searchParticularItem:27 - Executing the test case GB_01 With Order 1.0 For search Item Reebok Shoes
+2017-09-15 18:52:20 INFO  searchParticularItem:38 - Passed as Actual Result results for "water bottles" with Search Item Reebok Shoes
+2017-09-15 18:52:20 INFO  searchParticularItem:27 - Executing the test case GB_01 With Order 2.0 For search Item laptops
+2017-09-15 18:52:35 INFO  searchParticularItem:38 - Passed as Actual Result results for Computers & Accessories : Laptops :
+"laptops"  with Search Item laptops
+2017-09-15 18:54:42 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 1.0 For search Item ######
+2017-09-15 18:55:10 INFO  Search_an_item:36 - Passed as Actual Result Your search "######" did not match any products. with Search Item ######
+2017-09-15 18:55:10 INFO  Search_an_item:27 - Executing the test case GB_01 With Order 2.0 For search Item @@@@@
+2017-09-15 18:55:11 INFO  Search_an_item:36 - Passed as Actual Result Your search "@@@@@" did not match any products. with Search Item @@@@@
+2017-09-15 18:55:12 INFO  Search_an_item:57 - Executing the test case GB_02 With Order 1.0 For search Item Reebok Shoes
+2017-09-15 18:55:13 INFO  Search_an_item:66 - Passed as Actual Result results for Shoes & Handbags : Shoes : Men's Shoes : Sport Shoes :
+"Reebok Shoes"  with Search Item Reebok Shoes
+2017-09-15 18:55:13 INFO  Search_an_item:57 - Executing the test case GB_03 With Order 1.0 For search Item JBL Speakers
+2017-09-15 18:55:15 INFO  Search_an_item:66 - Passed as Actual Result results for Electronics : Home Audio : Speakers :
+"JBL Speakers"  with Search Item JBL Speakers
+2017-09-15 18:55:16 INFO  Search_an_item:57 - Executing the test case GB_04 With Order 1.0 For search Item Water Bottels
+2017-09-15 18:55:18 INFO  Search_an_item:66 - Passed as Actual Result results for "water bottles" with Search Item Water Bottels
+2017-09-15 18:55:18 INFO  searchParticularItem:27 - Executing the test case GB_01 With Order 1.0 For search Item Reebok Shoes
+2017-09-15 18:55:36 INFO  searchParticularItem:38 - Passed as Actual Result results for Shoes & Handbags : Shoes : Men's Shoes : Sport Shoes :
+"Reebok Shoes"  with Search Item Reebok Shoes
+2017-09-15 18:55:37 INFO  searchParticularItem:27 - Executing the test case GB_01 With Order 2.0 For search Item laptops
+2017-09-15 18:55:51 INFO  searchParticularItem:38 - Passed as Actual Result results for Computers & Accessories : Laptops :
+"laptops"  with Search Item laptops

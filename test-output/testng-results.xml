@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53392" started-at="2017-09-15T09:45:01Z" finished-at="2017-09-15T09:45:54Z">
+  <suite name="Suite" duration-ms="80415" started-at="2017-09-15T13:24:34Z" finished-at="2017-09-15T13:25:55Z">
     <groups>
       <group name="InValid">
         <method signature="Search_an_item.Invalid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Invalid_Search_Item" class="Scenario_Driver_Component.Search_an_item"/>
@@ -12,9 +12,9 @@
         <method signature="searchParticularItem.searchAParticularItem(java.util.Map)[pri:0, instance:Scenario_Driver_Component.searchParticularItem@3891771e]" name="searchAParticularItem" class="Scenario_Driver_Component.searchParticularItem"/>
       </group> <!-- Valid -->
     </groups>
-    <test name="Set1" duration-ms="53392" started-at="2017-09-15T09:45:01Z" finished-at="2017-09-15T09:45:54Z">
+    <test name="Set1" duration-ms="80415" started-at="2017-09-15T13:24:34Z" finished-at="2017-09-15T13:25:55Z">
       <class name="Scenario_Driver_Component.searchParticularItem">
-        <test-method status="PASS" signature="searchAParticularItem(java.util.Map)[pri:0, instance:Scenario_Driver_Component.searchParticularItem@3891771e]" name="searchAParticularItem" duration-ms="14628" started-at="2017-09-15T15:15:24Z" data-provider="dp_ValidSearchItem" finished-at="2017-09-15T15:15:38Z">
+        <test-method status="PASS" signature="searchAParticularItem(java.util.Map)[pri:0, instance:Scenario_Driver_Component.searchParticularItem@3891771e]" name="searchAParticularItem" duration-ms="18545" started-at="2017-09-15T18:55:18Z" data-provider="dp_ValidSearchItem" finished-at="2017-09-15T18:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAParticularItem -->
-        <test-method status="PASS" signature="searchAParticularItem(java.util.Map)[pri:0, instance:Scenario_Driver_Component.searchParticularItem@3891771e]" name="searchAParticularItem" duration-ms="13569" started-at="2017-09-15T15:15:38Z" data-provider="dp_ValidSearchItem" finished-at="2017-09-15T15:15:52Z">
+        <test-method status="PASS" signature="searchAParticularItem(java.util.Map)[pri:0, instance:Scenario_Driver_Component.searchParticularItem@3891771e]" name="searchAParticularItem" duration-ms="14529" started-at="2017-09-15T18:55:37Z" data-provider="dp_ValidSearchItem" finished-at="2017-09-15T18:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -38,15 +38,15 @@
         </test-method> <!-- searchAParticularItem -->
       </class> <!-- Scenario_Driver_Component.searchParticularItem -->
       <class name="Scenario_Driver_Component.Search_an_item">
-        <test-method status="PASS" signature="init_extentSetup()[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="init_extentSetup" is-config="true" duration-ms="211" started-at="2017-09-15T15:15:01Z" finished-at="2017-09-15T15:15:01Z">
+        <test-method status="PASS" signature="init_extentSetup()[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="init_extentSetup" is-config="true" duration-ms="349" started-at="2017-09-15T18:54:34Z" finished-at="2017-09-15T18:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init_extentSetup -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="launchBrowser" is-config="true" duration-ms="6185" started-at="2017-09-15T15:15:01Z" finished-at="2017-09-15T15:15:07Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="launchBrowser" is-config="true" duration-ms="7767" started-at="2017-09-15T18:54:34Z" finished-at="2017-09-15T18:54:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="Invalid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Invalid_Search_Item" duration-ms="8404" started-at="2017-09-15T15:15:08Z" data-provider="dp_InvalidSearch" finished-at="2017-09-15T15:15:16Z">
+        <test-method status="PASS" signature="Invalid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Invalid_Search_Item" duration-ms="27599" started-at="2017-09-15T18:54:42Z" data-provider="dp_InvalidSearch" finished-at="2017-09-15T18:55:10Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Search_Item -->
-        <test-method status="PASS" signature="Invalid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Invalid_Search_Item" duration-ms="1409" started-at="2017-09-15T15:15:16Z" data-provider="dp_InvalidSearch" finished-at="2017-09-15T15:15:17Z">
+        <test-method status="PASS" signature="Invalid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Invalid_Search_Item" duration-ms="1618" started-at="2017-09-15T18:55:10Z" data-provider="dp_InvalidSearch" finished-at="2017-09-15T18:55:12Z">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Search_Item -->
-        <test-method status="PASS" signature="Valid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Valid_Search_Item" duration-ms="1587" started-at="2017-09-15T15:15:17Z" data-provider="dp_ValidSearch" finished-at="2017-09-15T15:15:19Z">
+        <test-method status="PASS" signature="Valid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Valid_Search_Item" duration-ms="1781" started-at="2017-09-15T18:55:12Z" data-provider="dp_ValidSearch" finished-at="2017-09-15T18:55:13Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_Search_Item -->
-        <test-method status="PASS" signature="Valid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Valid_Search_Item" duration-ms="2958" started-at="2017-09-15T15:15:19Z" data-provider="dp_ValidSearch" finished-at="2017-09-15T15:15:22Z">
+        <test-method status="PASS" signature="Valid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Valid_Search_Item" duration-ms="2564" started-at="2017-09-15T18:55:13Z" data-provider="dp_ValidSearch" finished-at="2017-09-15T18:55:16Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_Search_Item -->
-        <test-method status="PASS" signature="Valid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Valid_Search_Item" duration-ms="1685" started-at="2017-09-15T15:15:22Z" data-provider="dp_ValidSearch" finished-at="2017-09-15T15:15:24Z">
+        <test-method status="PASS" signature="Valid_Search_Item(java.util.Map)[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="Valid_Search_Item" duration-ms="2418" started-at="2017-09-15T18:55:16Z" data-provider="dp_ValidSearch" finished-at="2017-09-15T18:55:18Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid_Search_Item -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="CloseBrowser" is-config="true" duration-ms="2625" started-at="2017-09-15T15:15:52Z" finished-at="2017-09-15T15:15:54Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Scenario_Driver_Component.Search_an_item@5891e32e]" name="CloseBrowser" is-config="true" duration-ms="3138" started-at="2017-09-15T18:55:51Z" finished-at="2017-09-15T18:55:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->

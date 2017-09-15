@@ -67,9 +67,9 @@ public class BaseComponent {
 		
 		TakesScreenshot scrennshot = (TakesScreenshot)driver;
 		File screenshotAs = scrennshot.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshotAs, new File("D:\\Sindhoor_Automation\\1_Framework_AmazonApp\\Screenshots\\"+TC_ID+"-"+Order+"-"+str));
+		FileUtils.copyFile(screenshotAs, new File("./Screenshots/"+TC_ID+"-"+Order+"-"+str));
 		
-		String path = "D:\\Sindhoor_Automation\\1_Framework_AmazonApp\\Screenshots"+TC_ID+"-"+Order+"-"+str;
+		String path = "./Screenshots/"+TC_ID+"-"+Order+"-"+str;
 		return path;
 	}
 	
@@ -79,7 +79,7 @@ public class BaseComponent {
 		Date date = new Date();
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-mm-dd hh-mm-ss");
 		String report = df.format(date);
-		extent_report = new ExtentReports("D:\\Sindhoor_Automation\\1_Framework_AmazonApp\\Reoprts\\"+"AmazonProject"+"-"+report+".html",false);
+		extent_report = new ExtentReports("./Reports/"+"AmazonProject"+"-"+report+".html",false);
 		
 	}
 	

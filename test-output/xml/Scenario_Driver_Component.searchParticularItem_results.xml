@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="28.197">
+           time="33.074">
   <properties />
   
   
-            <testcase name="searchAParticularItem" time="13.569" classname="Scenario_Driver_Component.searchParticularItem" />
-                <testcase name="searchAParticularItem" time="14.628" classname="Scenario_Driver_Component.searchParticularItem" />
+            <testcase name="searchAParticularItem" time="18.545" classname="Scenario_Driver_Component.searchParticularItem" />
+                <testcase name="searchAParticularItem" time="14.529" classname="Scenario_Driver_Component.searchParticularItem" />
       
 </testsuite>
